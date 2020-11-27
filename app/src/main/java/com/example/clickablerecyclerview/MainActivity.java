@@ -1,4 +1,4 @@
-package com.example.samplerecyclerview;
+package com.example.clickablerecyclerview;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;

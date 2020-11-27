@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.samplerecyclerview">
+    package="com.example.clickablerecyclerview">
 
     <application
         android:allowBackup="true"
@@ -10,11 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SampleRecyclerView">
         <activity
-            android:name=".TargetActivity"
-            android:parentActivityName=".MainActivity">
+            android:name="com.example.clickablerecyclerview.TargetActivity"
+            android:parentActivityName="com.example.clickablerecyclerview.MainActivity">
 
         </activity>
-        <activity android:name=".MainActivity">
+        <activity android:name="com.example.clickablerecyclerview.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

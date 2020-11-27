@@ -1,4 +1,4 @@
-package com.example.samplerecyclerview;
+package com.example.clickablerecyclerview;
 
 import android.content.Context;
 
